@@ -1,0 +1,38 @@
+$color : black;
+
+#size_p1
+{
+   font-size: 15px;
+   color: $color;
+}
+#size_p2
+{
+   font-size: 15px;
+   color: $color;
+}
+
+div .nest{
+  background-color: #fcf5fb;
+#size_p1{
+    font-size: 20px;
+  }
+#size_p2 {
+    font-size: 20px;
+  }
+
+}
+%message{
+font-family: sans-serif;
+font-size: 18px;
+font-weight: bold;
+padding: 20px;
+margin :20px;
+}
+.inherit1{
+  @extend %message;
+  background-color: #fff7f2;
+}
+.inherit2{
+  @extend %message;
+  background-color: #d4d1cf;
+}
